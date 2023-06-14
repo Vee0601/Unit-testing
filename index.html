@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDD WITH MOCHA</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.css">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.min.js" charset="utf-8"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+</head>
+<body>
+    <main>
+<hr>
+        <div style="text-align: center;">
+            <div id="mocha"></div>
+            <script>
+                // the mocha test style to use - we use BDD - Behviour Driven Development
+                mocha.setup('bdd');
+                //ensure the assert function is available
+                var assert = chai.assert;
+            </script>
+        <hr>
+            <!--Done-->
+            <!-- the function to be tested -->
+            <script src="greet.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/greet.tests.js" charset="utf-8"></script>
+        
+            <hr>
+                <!--Done-->
+        <!-- 2. isFromBellville scripts in Vehicle registration numbers-->
+            <!-- the function to be tested -->
+            <script src="isFromBellville.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/isFromBellville.test.js" charset="utf-8"></script>
+            
+        
+                    <!--Done-->
+            <!-- 3. regCheck scripts-->
+            <!-- the function to be tested -->
+            <script src="regCheck.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/regCheck.test.js" charset="utf-8"></script>
+        
+        
+        
+                    <!--Done-->
+            <!-- 4. countRegNumber scripts (From a string to a list in function exercise)-->
+            <!-- the function to be tested -->
+            <script src="countRegNumber.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/countRegNumber.test.js" charset="utf-8"></script>
+        
+        
+        
+                    <!--Done-->
+                <!-- 5. isWeekday scripts-->
+            <!-- the function to be tested -->
+            <script src="isWeekday.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/isWeekday.test.js" charset="utf-8"></script>
+        
+        
+        
+                        <!--Done-->
+                    <!-- 6. yearsAgo scripts-->
+            <!-- the function to be tested -->
+            <script src="yearsAgo.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/yearsAgo.test.js" charset="utf-8"></script>
+        
+        
+        
+        
+                            <!--Done-->
+                        <!-- 7. countAllPaarl scripts-->
+            <!-- the function to be tested -->
+            <script src="countAllPaarl.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/countAllPaarl.test.js" charset="utf-8"></script>
+        
+        
+        
+                    <!--Done-->
+                            <!-- 8. countAllFromTown scripts-->
+            <!-- the function to be tested -->
+            <script src="countAllFromTown.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/countAllFromTown.test.js" charset="utf-8"></script>
+        
+        
+        
+        
+                        <!--Done-->
+                            <!-- 9. transportFee scripts-->
+            <!-- the function to be tested -->
+            <script src="transportFee.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/transportFee.test.js" charset="utf-8"></script>
+        
+        
+        
+                    <!--Done-->
+                            <!-- 10. totalPhoneBill scripts-->
+            <!-- the function to be tested -->
+            <script src="totalPhoneBill.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/totalPhoneBill.test.js" charset="utf-8"></script>
+        
+        
+        
+        
+                            <!--Done-->
+                        <!-- 11. fromWhere scripts-->
+            <!-- the function to be tested -->
+            <script src="fromWhere.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/fromWhere.test.js" charset="utf-8"></script>
+        
+        
+            
+        
+                <!--Done-->
+                        <!-- 12. findItemsOver20 scripts-->
+            <!-- the function to be tested -->
+            <script src="findItemsOver20.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/findItemsOver20.test.js" charset="utf-8"></script>
+        
+        
+        
+                    
+                            <!-- 13. findItemsOver scripts-->
+            <!-- the function to be tested -->
+            <script src="findItemsOver.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/findItemsOver.test.js" charset="utf-8"></script>
+        
+        
+        
+        
+        
+                               <!-- 14. mostProfitableDepartment scripts-->
+            <!-- the function to be tested -->
+            <script src="mostProfitableDepartment.js" charset="utf-8"></script>
+            <!-- followed by the tests -->
+            <script src="test/mostProfitableDepartment.test.js" charset="utf-8"></script>
+        
+        
+        
+        
+        
+            <script>
+                // configure and run mocha
+                mocha.checkLeaks();
+                mocha.run();
+            </script>
+
+        </div>
+
+    </main>
+
+   <body>
+    
+</html>
